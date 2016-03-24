@@ -19,7 +19,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/luci-theme-$(THEME_NAME)
   SECTION:=luci
   CATEGORY:=LuCI
-  SUBMENU:=9. Themes
+  SUBMENU:=4. Themes
   TITLE:=LuCI Theme - $(THEME_TITLE)
   PKGARCH:=all
 endef
